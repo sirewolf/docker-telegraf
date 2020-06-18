@@ -1,4 +1,1 @@
-web:
-  image: 'telegraf:latest'
-  restart: always
-  hostname: 'telegraf'
+FROM telegraf:latest
